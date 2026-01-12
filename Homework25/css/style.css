@@ -1,0 +1,23 @@
+[data-read-more-btn] {
+    display: flex; /* right now texts locate in 1 row */
+    justify-content: center;
+    gap:20px; /* distance between texts */
+}
+body{
+    background-color: blanchedalmond;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:10px;
+    gap:8px;
+}
+.item-add {
+    align-items: center;
+    margin-top: -70px;
+    margin-left: 80px;
+}
+.list{
+    gap:18px;
+}
