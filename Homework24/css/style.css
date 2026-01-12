@@ -1,0 +1,8 @@
+[data-read-more-btn] {
+    display: flex; /* right now texts locate in 1 row */
+    justify-content: center;
+    gap:20px; /* distance between texts */
+}
+body{
+    background-color: blanchedalmond;
+}
