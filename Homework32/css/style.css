@@ -1,0 +1,17 @@
+input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.error-message-firstName{
+    color: red
+}
+.error-message-lastName{
+    color: red
+}
+.error-message-email{
+    color: red
+}
+.error-message-freezeModel{
+    color: red
+}
