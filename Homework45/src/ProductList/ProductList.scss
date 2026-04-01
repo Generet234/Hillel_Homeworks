@@ -1,0 +1,28 @@
+.product-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  .product-item {
+    width: 40%;
+    padding: 10px;
+    .product-actions {
+      display: flex;
+      justify-content: flex-start;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid #dee2e6;
+
+      button {
+        gap: 10px;
+        width:40%;
+        &:hover {
+          filter: grayscale(1);
+        }
+      }
+    }
+  }
+  .modal-container{
+    margin-bottom: 1rem;
+  }
+}
