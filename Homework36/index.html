@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/main.js" type="module"></script>
+</head>
+<body>
+<div class="container">
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Company</th>
+            <th scope="col">Actions</th>
+        </tr>
+        </thead>
+        <tbody id="user-table-body">
+        </tbody>
+    </table>
+    <div class="loaderContainer" style={width:60%}></div>
+    <button type="button" class="btn btn-primary" id="add" data-user-add>Add user</button>
+</div>
+<div class="modal" id="myModalCreate">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="taskFormsCreate">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal" id="myModalDelete">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="taskFormsDelete">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal" id="myModalUpdate">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="taskFormsUpdate">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="error-message toast-container position-fixed bottom-0 end-0 p-3"></div>
+</body>
+</html>
